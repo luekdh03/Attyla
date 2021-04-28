@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400);
+
+html {
+  height:100%;
+  font-family:lato, sans-serif;
+}
+body {
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  background-color: blue;
+}
+
+li {
+    margin: 0 auto;
+    display: inline-block;
+    list-style: none;
+    padding:0;
+    width: 20%;
+}
+
+a {
+    display: block;
+    padding: 25px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing:.2em;
+    text-decoration: none;
+    transition: color 200ms;
+}
+a:hover {
+    color: pink;
+}
+
